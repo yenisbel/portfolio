@@ -20,7 +20,13 @@ const Cover = ({ coverImg }) => (
     />
     <div className="overlay" />
     <div className="center">
-      <div className="container">
+      <div class="container">
+      <div class="text-with-animation">I can</div>
+      <div class="subtext-with-animation">
+        <span>take</span> <span>it</span>
+      </div>
+      </div>
+      {/* <div className="container">
       <div className="scroller">
       <div className="inner">
         <span>Hi, I'm</span>
@@ -29,7 +35,7 @@ const Cover = ({ coverImg }) => (
         <span>My goal is to <a href="https://github.com/yenisbel" className="blue">build</a> <a a href="https://github.com/yenisbel" className="blueb">web-apps</a>.</span>
       </div>
       </div>
-      </div>
+      </div> */}
     </div>
     <div className="arrow animated bounceInDown">
       <Scrollchor to="#about" className="btn" animate={{ duration: 500 }}>

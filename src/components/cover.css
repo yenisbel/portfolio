@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Gochi+Hand|Roboto:700');
 .cover {
   width: 100%;
   height: 100vh;
@@ -131,88 +132,80 @@
   }
 }
 
-/* index.module.scss*/
+/* Letter*/
+
+.text-with-animation {
+  font-size: 6vw;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  line-height: 100vh;
+  vertical-align: middle;
+  animation: main-text-animation 1.7s ease-in-out forwards;
+  font-weight: 700;
+  color: #f19578;
+  overflow: hidden;
+  display: block;
+  width: 500vw;
+  margin-left: -200vw;
+}
 
 .container {
-  position: fixed;
-  top: 40%;
-  left: 30%;
-  -webkit-font-smoothing: antialiased;
+  height: 100vh;
+  line-height: 100vh;
+  vertical-align: middle;
 }
 
-.container a{
-  color: #000; 
-  text-decoration: none;
-}
-a:hover{color: #000; text-decoration: none;} 
-
-
-.scroller {
-  height: 50px;
-  line-height: 50px;
-  float: left;
-  margin-left: 5px;
+.subtext-with-animation {
+  position: absolute;
+  font-size: 5vw;
+  text-align: center;
+  line-height: 100vh;
+  vertical-align: middle;
+  top: 0;
+  width: 100%;
+  font-family: 'Gochi Hand', cursive;
+  color: #fff;
+  letter-spacing: 4px;
+  user-select: none;
   overflow: hidden;
+  display: block;
 }
 
-.scroller span {
-  display: block; 
-  font-size: 200%;
-  color: #000;
+.subtext-with-animation span:first-of-type {
+  position: relative;
+  opacity: 0;
+  animation: word-animation 0.5s ease-out 1.5s forwards;
 }
 
-.scroller .inner {
-  -webkit-animation: scroll 10s 1 ease-out;
-  -moz-animation: scroll 10s 1 ease-out;
-  animation: scroll 10s 1 ease-out;
-  -webkit-animation-fill-mode: forwards;
-  -moz-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
+.subtext-with-animation span:nth-of-type(2) {
+  position: relative;
+  opacity: 0;
+  animation: word-animation 0.5s ease-out 1.7s forwards;
 }
 
-
-.blue {
-  -webkit-animation: color 0.25s 1 linear;
-  -moz-animation: color 0.25s 1 linear;
-  animation: color 0.25s 1 linear;
-  
-  -webkit-animation-delay: 8s;
-  -moz-animation-delay: 8s;
-  animation-delay: 8s;
-  
-  -webkit-animation-fill-mode: forwards;
-  -moz-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-  
+@keyframes main-text-animation {
+  0% {
+    letter-spacing: 25vw;
+    word-spacing: 100vw;
+    opacity: 0;
+  }
+  100% {
+    letter-spacing: 4px;
+    word-spacing: 1vw;
+    opacity: 1;
+  }
 }
 
-
-.blueb {
-  -webkit-animation: color 0.25s 1 linear;
-  -moz-animation: color 0.25s 1 linear;
-  animation: color 0.25s 1 linear;
-  
-        -webkit-animation-delay: 8.25s;
-  -moz-animation-delay: 8.25s;
-  animation-delay: 8.25s;
-  
-     -webkit-animation-fill-mode: forwards;
-  -moz-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
+@keyframes word-animation {
+  0% {
+    top: 10vw;
+    opacity: 0;
+  }
+  100% {
+    top: 3.5vw;
+    opacity: 1;
+  }
 }
 
 
-@-webkit-keyframes color {
-  0%  {color: #000;}
-  100% {color: #7eaeac;;}
-}
-
-@-moz-keyframes color {
-  0%  {color: #000;}
-  100% {color: #7eaeac;;}
-}
-
-@keyframes color {
-  0%  {color: #000;}
-  100% {color: #7eaeac;;}
-}
