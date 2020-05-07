@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Github",
+    "icon": "github",
+    "type": "social-media",
+    "url": "https://github.com/yenisbel"
+  },
+  {
+    "name": "LinkedIn",
+    "icon": "linkedin",
+    "type": "social-media",
+    "url": "https://www.linkedin.com/in/yenisbelv"
+  },
+  {
+    "name": "Email",
+    "icon": "envelope",
+    "type": "email",
+    "url": "mailto:yenisbelv@gmail.com"
+  },
+  {
+    "name": "Resume",
+    "icon": "file",
+    "type": "docu",
+    "url": "https://docs.google.com/document/d/e/2PACX-1vT69srXo4B2BnMBDy2KW_CHGExlmbRWiTmx2RFz2Q_l4E0aXM5nveRc-IEDgKy-GxUOs_vLwFuS05t7/pub"
+  }
+]

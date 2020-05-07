@@ -1,0 +1,82 @@
+[
+  {
+    "name": "BlueAsana",
+    "description": "asana clone",
+    "type": "full-stack",
+    "slug": "project-1",
+    "stack": "Ruby on Rails, React, JavaScript, Postgresql",
+    "img": "EmpowerHerSF_cover.png",
+    "live": "http://blueasana.herokuapp.com/#/",
+    "url": "https://github.com/yenisbel/asana"
+  },
+  {
+    "name": "Tower Building",
+    "description": "based on TowerPuzzle Skyscrapper",
+    "type": "full-stack",
+    "slug": "project-2",
+    "stack": "JavaScript, HTML5, CSS3",
+    "img": "EmpowerHerSF_cover.png",
+    "live": "https://yenisbel.github.io/building_tower/",
+    "url": "https://github.com/yenisbel/building_tower"
+  },
+  {
+    "name": "Dotify",
+    "description": "inspired of Spotify",
+    "type": "full-stack",
+    "slug": "project-3",
+    "stack": "GraphQL, Docker, Node.js, React",
+    "img": "EmpowerHerSF_cover.png",
+    "live": "https://dootify.herokuapp.com/#/",
+    "url": "https://github.com/yenisbel/dotify"
+  },
+  {
+    "name": "SlackOffice",
+    "description": "based on Slack",
+    "type": "full-stack",
+    "slug": "project-4",
+    "stack": "Node.js, React, Express, MongoDB",
+    "img": "EmpowerHerSF_cover.png",
+    "live": "https://officeslack.herokuapp.com",
+    "url": "https://github.com/yenisbel/slack"
+  },
+  {
+    "name": "Velosimo API",
+    "description": "inspired of Spotify",
+    "type": "api",
+    "slug": "project-5",
+    "stack": "GraphQL, Docker, Node.js, React",
+    "img": "CamperLeaderboard.png",
+    "live": "https://dootify.herokuapp.com/#/",
+    "url": "https://github.com/yenisbel/dotify"
+  },
+  {
+    "name": "Cenit IO",
+    "description": "based on Slack",
+    "type": "api",
+    "slug": "project-6",
+    "stack": "Node.js, React, Express, MongoDB",
+    "img": "CamperLeaderboard.png",
+    "live": "https://officeslack.herokuapp.com",
+    "url": "https://github.com/yenisbel/slack"
+  },
+  {
+    "name": "Velosimo API",
+    "description": "inspired of Spotify",
+    "type": "front-end",
+    "slug": "project-5",
+    "stack": "GraphQL, Docker, Node.js, React",
+    "img": "AskMe.png",
+    "live": "https://dootify.herokuapp.com/#/",
+    "url": "https://github.com/yenisbel/dotify"
+  },
+  {
+    "name": "Cenit IO",
+    "description": "based on Slack",
+    "type": "front-end",
+    "slug": "project-6",
+    "stack": "Node.js, React, Express, MongoDB",
+    "img": "AskMe.png",
+    "live": "https://officeslack.herokuapp.com",
+    "url": "https://github.com/yenisbel/slack"
+  }
+]
