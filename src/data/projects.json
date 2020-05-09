@@ -5,7 +5,7 @@
     "type": "full-stack",
     "slug": "project-1",
     "stack": "Ruby on Rails, React, JavaScript, Postgresql",
-    "img": "EmpowerHerSF_cover.png",
+    "img": "BlueAsana.png",
     "live": "http://blueasana.herokuapp.com/#/",
     "url": "https://github.com/yenisbel/asana"
   },
@@ -15,7 +15,7 @@
     "type": "full-stack",
     "slug": "project-2",
     "stack": "JavaScript, HTML5, CSS3",
-    "img": "EmpowerHerSF_cover.png",
+    "img": "BuildingTower.png",
     "live": "https://yenisbel.github.io/building_tower/",
     "url": "https://github.com/yenisbel/building_tower"
   },
@@ -25,7 +25,7 @@
     "type": "full-stack",
     "slug": "project-3",
     "stack": "GraphQL, Docker, Node.js, React",
-    "img": "EmpowerHerSF_cover.png",
+    "img": "Dootify.png",
     "live": "https://dootify.herokuapp.com/#/",
     "url": "https://github.com/yenisbel/dotify"
   },
@@ -35,7 +35,7 @@
     "type": "full-stack",
     "slug": "project-4",
     "stack": "Node.js, React, Express, MongoDB",
-    "img": "EmpowerHerSF_cover.png",
+    "img": "Slack.png",
     "live": "https://officeslack.herokuapp.com",
     "url": "https://github.com/yenisbel/slack"
   },
@@ -45,7 +45,7 @@
     "type": "api",
     "slug": "project-5",
     "stack": "GraphQL, Docker, Node.js, React",
-    "img": "CamperLeaderboard.png",
+    "img": "Velosimo.png",
     "live": "https://dootify.herokuapp.com/#/",
     "url": "https://github.com/yenisbel/dotify"
   },
@@ -55,7 +55,7 @@
     "type": "api",
     "slug": "project-6",
     "stack": "Node.js, React, Express, MongoDB",
-    "img": "CamperLeaderboard.png",
+    "img": "CenitIO.png",
     "live": "https://officeslack.herokuapp.com",
     "url": "https://github.com/yenisbel/slack"
   },
@@ -65,7 +65,7 @@
     "type": "front-end",
     "slug": "project-5",
     "stack": "GraphQL, Docker, Node.js, React",
-    "img": "AskMe.png",
+    "img": "Velosimo.png",
     "live": "https://dootify.herokuapp.com/#/",
     "url": "https://github.com/yenisbel/dotify"
   },
@@ -75,7 +75,7 @@
     "type": "front-end",
     "slug": "project-6",
     "stack": "Node.js, React, Express, MongoDB",
-    "img": "AskMe.png",
+    "img": "CenitIO.png",
     "live": "https://officeslack.herokuapp.com",
     "url": "https://github.com/yenisbel/slack"
   }
