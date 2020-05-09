@@ -12,7 +12,7 @@ This the repo for [yenisbelvalle-portfolio](https://yenisbelvalle-portfolio.netl
 
 ## Web UI and why?
 
-By rebuilding my website portfolio with Gatsby, I also learned moreabout GraphQL, practiced my React skills, and took the opportunity to try out a new hosting provider Netlify as well.
+By rebuilding my website portfolio with Gatsby, I also learned more about GraphQL, practiced my React skills, and took the opportunity to try out a new hosting provider Netlify as well.
 - To create the front-end I used the library gatsby.js for static content generation.
 
 - The website uses SCSS as a CSS pre-processor.
@@ -23,8 +23,8 @@ I am really excited for the future of Gatsby and similar front end tools that re
 
 1.  **Prerequisites.**
 
-    [gatsby.js installed](https://github.com/gatsbyjs/) 
-    [node.js installed](https://nodejs.org/en/) 
+    - Install [gatsby.js](https://github.com/gatsbyjs/) 
+    - Install [node.js](https://nodejs.org/en/) 
 
 ## 🧐 What's inside?
 
