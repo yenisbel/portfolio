@@ -140,14 +140,14 @@
   font-family: 'Roboto', sans-serif;
   text-align: center;
   line-height: 100vh;
-  vertical-align: middle;
   animation: main-text-animation 1.7s ease-in-out forwards;
-  font-weight: 700;
+  font-weight: 100;
   color: #f19578;
   overflow: hidden;
   display: block;
-  width: 500vw;
-  margin-left: -200vw;
+  /* width: 500vw; */
+  width: 250px;
+  margin-left: -10px;
 }
 
 .container {
@@ -161,7 +161,6 @@
   font-size: 5vw;
   text-align: center;
   line-height: 100vh;
-  vertical-align: middle;
   top: 0;
   width: 100%;
   font-family: 'Gochi Hand', cursive;

@@ -74,21 +74,5 @@ export const query = graphql`
         }
       }
     }
-    HobbyImgs: allFile(
-      sort: { order: ASC, fields: [absolutePath] }
-      filter: { relativePath: { regex: "/icons/.*.png/" } }
-    ) {
-      edges {
-        node {
-          relativePath
-          name
-          childImageSharp {
-            sizes(maxWidth: 40) {
-              ...GatsbyImageSharpSizes
-            }
-          }
-        }
-      }
-    }
   }
 `;

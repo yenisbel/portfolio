@@ -69,6 +69,15 @@ const Navigation = () => {
               Contact
             </ScrollchorItem>
           </NavItem>
+          <NavItem onClick={handleCloseCollapse}>
+            <NavLink href="https://docs.google.com/document/d/e/2PACX-1vT69srXo4B2BnMBDy2KW_CHGExlmbRWiTmx2RFz2Q_l4E0aXM5nveRc-IEDgKy-GxUOs_vLwFuS05t7/pub" 
+              className="external-link" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              Resume
+            </NavLink>
+          </NavItem>  
         </Scrollspy>
       </Collapse>
     </Navbar>

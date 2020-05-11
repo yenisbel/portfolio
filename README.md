@@ -71,6 +71,6 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
 ## 💫 Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-hello-world)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2553eda1-d327-4955-b8a1-3e6ca4e36559/deploy-status)](https://app.netlify.com/sites/yenisbel/deploys)
 
 <!-- AUTO-GENERATED-CONTENT:END -->

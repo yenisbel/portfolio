@@ -42,41 +42,21 @@
   {
     "name": "Velosimo API",
     "description": "inspired of Spotify",
-    "type": "api",
+    "type": "full-stack",
     "slug": "project-5",
-    "stack": "GraphQL, Docker, Node.js, React",
+    "stack": "Markdown, HTML5, deploy in Vercel",
     "img": "Velosimo.png",
-    "live": "https://dootify.herokuapp.com/#/",
-    "url": "https://github.com/yenisbel/dotify"
+    "live": "https://seamlessdocs.velosimo.io/#/",
+    "url": "https://github.com/yenisbel"
   },
   {
     "name": "Cenit IO",
     "description": "based on Slack",
-    "type": "api",
+    "type": "full-stack",
     "slug": "project-6",
-    "stack": "Node.js, React, Express, MongoDB",
+    "stack": "Markdown, HTML5, deploy in Github Pages",
     "img": "CenitIO.png",
-    "live": "https://officeslack.herokuapp.com",
-    "url": "https://github.com/yenisbel/slack"
-  },
-  {
-    "name": "Velosimo API",
-    "description": "inspired of Spotify",
-    "type": "front-end",
-    "slug": "project-5",
-    "stack": "GraphQL, Docker, Node.js, React",
-    "img": "Velosimo.png",
-    "live": "https://dootify.herokuapp.com/#/",
-    "url": "https://github.com/yenisbel/dotify"
-  },
-  {
-    "name": "Cenit IO",
-    "description": "based on Slack",
-    "type": "front-end",
-    "slug": "project-6",
-    "stack": "Node.js, React, Express, MongoDB",
-    "img": "CenitIO.png",
-    "live": "https://officeslack.herokuapp.com",
-    "url": "https://github.com/yenisbel/slack"
+    "live": "https://cenit-io.github.io/docs/#/",
+    "url": "https://github.com/cenit-io/docs"
   }
 ]

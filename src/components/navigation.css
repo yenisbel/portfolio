@@ -36,7 +36,7 @@
   color: white !important;
 }
 
-.nav-link:hover {
+.nav-link:hover, .external-link:hover {
   text-decoration: underline !important;
 }
 
@@ -52,7 +52,7 @@ ul.blue-font.navbar-nav > li > a {
   color: #337ab7;
 }
 
-.nav-link {
+.nav-link, .external-link {
   padding: 0 0;
   cursor: pointer;
 }
@@ -65,7 +65,7 @@ button:focus {
   .navbar {
     margin-right: -20px;
   }
-  .nav-link {
+  .nav-link, .external-link {
     padding: 10px 15px !important;
   }
 }

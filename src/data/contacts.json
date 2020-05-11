@@ -12,6 +12,12 @@
     "url": "https://www.linkedin.com/in/yenisbelv"
   },
   {
+    "name": "AngelList",
+    "icon": "angellist",
+    "type": "social-media",
+    "url": "https://angel.co/u/yenisbel-valle"
+  },
+  {
     "name": "Email",
     "icon": "envelope",
     "type": "email",

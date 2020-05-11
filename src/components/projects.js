@@ -12,20 +12,6 @@ const Projects = ({ projectImgs }) => {
     <section id="projects" className="section projects">
       <h2 className="text-center">PROJECTS</h2>
       <div className="section-content">
-        <div className="subheader">
-          <FormGroup controlId="formControlsSelect">
-            <FormControl
-              componentClass="select"
-              placeholder="select"
-              defaultValue={type}
-              onChange={(e) => setType(e.target.value)}
-            >
-              <option value="full-stack">Full Stack</option>
-              <option value="front-end">Front End</option>
-              <option value="api">Api Docs</option>
-            </FormControl>
-          </FormGroup>
-        </div>
         <div className="project-list">
           {projectList.map((project) => {
             const isSelectedType = type === project.type;
@@ -55,7 +41,7 @@ const Projects = ({ projectImgs }) => {
                 <div className="blue-divider" />
                 <div className="card-info">
                   <h4 className="card-name">{project.name}</h4>
-                  <p>{project.description}</p>
+                  <p>{project.stack}</p>
                 </div>
               </a>
             );
