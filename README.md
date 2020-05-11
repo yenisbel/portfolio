@@ -12,12 +12,13 @@ This the repo for [yenisbelvalle-portfolio](https://yenisbelvalle-portfolio.netl
 
 ## Web UI and why?
 
-By rebuilding my website portfolio with Gatsby, I also learned more about GraphQL, practiced my React skills, and took the opportunity to try out a new hosting provider Netlify as well.
+By rebuilding my website portfolio with Gatsby, I also learned more about GraphQL, practiced my React skills, get around of Gatsby ecosystem plugins and open source community.
+
 - To create the front-end I used the library gatsby.js for static content generation.
 
 - The website uses SCSS as a CSS pre-processor.
 
-I am really excited for the future of Gatsby and similar front end tools that remove the complexities of configuring environments and build tools.
+
 
 ## 🚀 Quick start
 
@@ -70,6 +71,8 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
 
 ## 💫 Deploy
+
+I use new hosting provider Netlify for this version of my portfolio.
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/2553eda1-d327-4955-b8a1-3e6ca4e36559/deploy-status)](https://app.netlify.com/sites/yenisbel/deploys)
 
