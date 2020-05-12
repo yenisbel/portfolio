@@ -6,7 +6,7 @@ import "./projects.css";
 import projectList from "../data/projects.json";
 
 const Projects = ({ projectImgs }) => {
-  const [type, setType] = useState("front-end");
+  // const [type, setType] = useState("front-end");
 
   return (
     <section id="projects" className="section projects">
@@ -14,17 +14,15 @@ const Projects = ({ projectImgs }) => {
       <div className="section-content">
         <div className="project-list">
           {projectList.map((project) => {
-            const isSelectedType = type === project.type;
-            const singleCardClass = classNames("single-card", {
-              hide: !isSelectedType,
-            });
+            // const isSelectedType = type === project.type;
+            const singleCardClass = classNames("single-card");
             const image = projectImgs.find((n) => {
               return n.node.relativePath === `projects/${project.img}`;
             });
             const imageSizes = image.node.childImageSharp.sizes;
             return (
               <a
-                href={project.url}
+                href={project.live}
                 key={project.url}
                 className={singleCardClass}
                 target="_blank"
