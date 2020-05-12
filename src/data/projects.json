@@ -26,7 +26,7 @@
     "slug": "project-3",
     "stack": "GraphQL, Docker, Node.js, React",
     "img": "Dootify.png",
-    "live": "https://dootify.herokuapp.com/#/",
+    "live": "https://dootify.herokuapp.com/#/splash",
     "url": "https://github.com/yenisbel/dotify"
   },
   {
@@ -36,7 +36,7 @@
     "slug": "project-4",
     "stack": "Node.js, React, Express, MongoDB",
     "img": "Slack.png",
-    "live": "https://officeslack.herokuapp.com",
+    "live": "https://officeslack.herokuapp.com/#/",
     "url": "https://github.com/yenisbel/slack"
   },
   {
