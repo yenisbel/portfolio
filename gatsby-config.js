@@ -3,7 +3,7 @@ module.exports = {
     title: "Yenisbel Valle | Portfolio",
     description:
       "Recently projects and cool stuff that am working on it.",
-    siteUrl: "https://yenisbel.com",
+    siteUrl: "https://yenisbel.netlify.app",
     author: "yenisbelvalle",
   },
   plugins: [
